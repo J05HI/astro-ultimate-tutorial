@@ -9,7 +9,8 @@ const env = loadEnv('', process.cwd(), 'STORYBLOK')
 export default defineConfig({
   integrations: [
     storyblok({
-      accessToken: env.STORYBLOK_TOKEN,
+      accessToken: '1uEvvUQoFTmBg5K1d3rH7wtt',
+      bridge: false,
       components: {
         page: 'storyblok/Page',
         feature: 'storyblok/Feature',
