@@ -2,6 +2,9 @@
   "name": "astro-ultimate-tutorial",
   "type": "module",
   "version": "0.0.1",
+  "engines": {
+    "node": ">= 16.12"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
